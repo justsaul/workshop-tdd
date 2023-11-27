@@ -8,8 +8,10 @@ Explore the ways of TDD!
 
 Implement counter component.
 
-From UI perspecrive user sees 2 buttons - one that increments, other that decrements the counter.
-When user presses on button he should see counter (displayed as text) increase
+From UI perspecrive user sees `2 buttons` - one that `increments`, other that `decrements` the counter.
+When user presses on button he should see counter (displayed as text) increase.
+
+There is also checkbox - `reset`. When toggled, whenever user presses on `increment` or `decrement` button, could should turn into 0.
 
 ### Bonus task #1
 
