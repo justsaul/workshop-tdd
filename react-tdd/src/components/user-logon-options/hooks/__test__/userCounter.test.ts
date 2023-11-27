@@ -1,8 +1,9 @@
-import { render, screen, renderHook, act} from '@testing-library/react';
-import userEvent  from '@testing-library/user-event';
+import { renderHook, act} from '@testing-library/react';
 
 import { useCounter } from '../useCounter.hook';
 
-describe(`useCounter()`, () => {
-
+test(`useCounter()`, () => {
+  const { result, rerender } = renderHook((reset) => useCounter(reset), {
+    initialProps: false,
+  })
 })

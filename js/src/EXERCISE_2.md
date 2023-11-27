@@ -3,6 +3,7 @@
 Explore the ways of TDD!
 
 > Try implementing functionality by writing tests first.
+> Dont forget to check test coverage!
 
 Start by:
 - create new file under `src` directory named: `exercise2.ts` -> `src/exercise2.ts`
